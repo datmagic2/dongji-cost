@@ -1,0 +1,9 @@
+.shadow-config {
+  box-shadow: 6px 4px #f4e9d0;
+  animation: loading2 1s infinite;
+}
+.shadow-config:hover {
+  box-shadow: none;
+  transform: translate(1%, 10%);
+  background: #f05f5e !important;
+}

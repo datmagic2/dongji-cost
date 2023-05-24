@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { LeftOutlined } from "@ant-design/icons";
 import FoodImage from "#/assets/images/Hotdog.png";

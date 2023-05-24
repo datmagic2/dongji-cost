@@ -7,3 +7,29 @@
   transform: translate(1%, 10%);
   background: #f05f5e !important;
 }
+.ant-tabs-tab {
+  padding: 8px 16px !important;
+  margin-left: 5px !important;
+}
+.ant-tabs-nav::before {
+  border: none !important;
+}
+.ant-tabs-tab-active {
+  padding: 8px 16px !important;
+  border-radius: 12px;
+  background: #f05f5e !important;
+}
+.ant-tabs-tab-active:hover,
+.ant-tabs-tab-active .ant-tabs-tab-btn:hover {
+  color: white !important;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+.ant-tabs-tab:hover,
+.ant-tabs-tab-btn:hover {
+  color: #f05f5e !important;
+}
+.ant-tabs-ink-bar {
+  background: none !important;
+}

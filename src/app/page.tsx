@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 import Dashboard from "./dashboard/page";
 import Sidebar from "#/components/Sidebar";
-import LoginPage from "./login/page";
+import LoginPage from "./food/page";
 
 const Page = () => {
   const router = useRouter();
@@ -17,11 +17,7 @@ const Page = () => {
     key: LOGIN_ACCESS_TOKEN,
   });
 
-  return (
-    <div className="px-6 py-5">
-      <Dashboard />
-    </div>
-  );
+  return <Dashboard />;
 };
 
 export default Page;

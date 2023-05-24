@@ -15,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={(montserrat.className, "bg-[#FAFAFA]")}>{children}</body>
+      <body className={(montserrat.className, "bg-[#FAFAFA]")}>
+        <div className="px-6 py-5">{children}</div>
+      </body>
     </html>
   );
 }
